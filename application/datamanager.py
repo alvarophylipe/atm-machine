@@ -81,7 +81,7 @@ class DataManager():
         return False
 
 
-    def data_update(self, object, return_name=False) -> None|str:
+    def data_update(self, object) -> None|str:
         data_list = self.data_access()
 
         for item in data_list:
